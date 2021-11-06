@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/KoreanFoodReactApp/static/css/main.86b70ea7.chunk.css",
+    "main.js": "/KoreanFoodReactApp/static/js/main.02fb28f3.chunk.js",
+    "main.js.map": "/KoreanFoodReactApp/static/js/main.02fb28f3.chunk.js.map",
+    "runtime-main.js": "/KoreanFoodReactApp/static/js/runtime-main.be7eb605.js",
+    "runtime-main.js.map": "/KoreanFoodReactApp/static/js/runtime-main.be7eb605.js.map",
+    "static/js/2.bcc5b47d.chunk.js": "/KoreanFoodReactApp/static/js/2.bcc5b47d.chunk.js",
+    "static/js/2.bcc5b47d.chunk.js.map": "/KoreanFoodReactApp/static/js/2.bcc5b47d.chunk.js.map",
+    "index.html": "/KoreanFoodReactApp/index.html",
+    "static/css/main.86b70ea7.chunk.css.map": "/KoreanFoodReactApp/static/css/main.86b70ea7.chunk.css.map",
+    "static/js/2.bcc5b47d.chunk.js.LICENSE.txt": "/KoreanFoodReactApp/static/js/2.bcc5b47d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/KoreanFoodReactApp/static/media/bg.eaa2b358.png",
+    "static/media/bibimbob.4ea153db.jpeg": "/KoreanFoodReactApp/static/media/bibimbob.4ea153db.jpeg",
+    "static/media/bulgogi.81dc31ad.jpeg": "/KoreanFoodReactApp/static/media/bulgogi.81dc31ad.jpeg",
+    "static/media/japchae.16d206fc.jpeg": "/KoreanFoodReactApp/static/media/japchae.16d206fc.jpeg",
+    "static/media/kimbob.78dd01bf.jpeg": "/KoreanFoodReactApp/static/media/kimbob.78dd01bf.jpeg",
+    "static/media/kimchi-soup.4c86a177.jpeg": "/KoreanFoodReactApp/static/media/kimchi-soup.4c86a177.jpeg",
+    "static/media/spicy-pork.d29ea019.jpg": "/KoreanFoodReactApp/static/media/spicy-pork.d29ea019.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be7eb605.js",
+    "static/js/2.bcc5b47d.chunk.js",
+    "static/css/main.86b70ea7.chunk.css",
+    "static/js/main.02fb28f3.chunk.js"
+  ]
+}
