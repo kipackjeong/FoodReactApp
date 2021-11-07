@@ -30,6 +30,8 @@ const cartReducer = (state, action) => {
   // Update
   else if (action.type === 'update') {
     updateItemFromCart(newState, item, itemName, itemPrice, amount)
+  } else if (action.type === 'removeAll') {
+    removeAllItemFromCart(newState)
   }
   return newState
 }
@@ -67,11 +69,14 @@ const updateItemFromCart = (newState, item, itemName, itemPrice, amount) => {
   newState.items[itemName].amount = amount
   const amountDiff = oldAmount - amount
   const priceDiff = amountDiff * itemPrice
-
   newState.totalAmount -= amountDiff
   newState.totalPrice -= priceDiff
 }
-
+const removeAllItemFromCart = (newState) => {
+  delete newState.items
+  newState.totalAmount = 0
+  newState.totalPrice = 0
+}
 // Provider component
 const CartProvider = (props) => {
   const [cartState, dispatchCart] = useReducer(cartReducer, defaultCartState)
@@ -84,7 +89,9 @@ const CartProvider = (props) => {
   const updateItemFromCartHandler = (item) => {
     dispatchCart({ type: 'update', item })
   }
-
+  const removeAllFromCartHandler = () => {
+    dispatchCart({ type: 'removeAll', item: {} })
+  }
   const cartContext = {
     items: { ...cartState.items },
     totalAmount: cartState.totalAmount,
@@ -92,6 +99,7 @@ const CartProvider = (props) => {
     addItem: addItemToCartHandler,
     removeItem: removeItemFromCartHandler,
     updateItem: updateItemFromCartHandler,
+    removeAll: removeAllFromCartHandler,
   }
   return (
     <CartContext.Provider value={cartContext}>

@@ -19,6 +19,7 @@ function App() {
     setCartClicked(false)
   }
   const onOrderHandler = () => {
+    console.log(cartCtx.items)
     console.log(
       'ordering ' +
         Object.keys(cartCtx.items)
@@ -28,24 +29,23 @@ function App() {
           )
           .join(', '),
     )
+    cartCtx.removeAll()
     setCartClicked(false)
   }
 
   return (
     <div className="App">
-      <CartProvider>
-        <Header>
-          <NavBar onCartClicked={onCartClickedHandler} />
-        </Header>
-        {cartClicked && (
-          <Modal>
-            <Cart onCancel={onCancelHandler} onOrder={onOrderHandler}></Cart>
-          </Modal>
-        )}
-        <Main>
-          <Menu></Menu>
-        </Main>
-      </CartProvider>
+      <Header>
+        <NavBar onCartClicked={onCartClickedHandler} />
+      </Header>
+      {cartClicked && (
+        <Modal>
+          <Cart onCancel={onCancelHandler} onOrder={onOrderHandler}></Cart>
+        </Modal>
+      )}
+      <Main>
+        <Menu></Menu>
+      </Main>
     </div>
   )
 }
