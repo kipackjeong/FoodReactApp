@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/KoreanFoodReactApp/static/css/main.86b70ea7.chunk.css",
-    "main.js": "/KoreanFoodReactApp/static/js/main.357141a3.chunk.js",
-    "main.js.map": "/KoreanFoodReactApp/static/js/main.357141a3.chunk.js.map",
+    "main.css": "/KoreanFoodReactApp/static/css/main.c8c95fc8.chunk.css",
+    "main.js": "/KoreanFoodReactApp/static/js/main.fda43ada.chunk.js",
+    "main.js.map": "/KoreanFoodReactApp/static/js/main.fda43ada.chunk.js.map",
     "runtime-main.js": "/KoreanFoodReactApp/static/js/runtime-main.be7eb605.js",
     "runtime-main.js.map": "/KoreanFoodReactApp/static/js/runtime-main.be7eb605.js.map",
-    "static/js/2.bcc5b47d.chunk.js": "/KoreanFoodReactApp/static/js/2.bcc5b47d.chunk.js",
-    "static/js/2.bcc5b47d.chunk.js.map": "/KoreanFoodReactApp/static/js/2.bcc5b47d.chunk.js.map",
+    "static/js/2.31acb1cc.chunk.js": "/KoreanFoodReactApp/static/js/2.31acb1cc.chunk.js",
+    "static/js/2.31acb1cc.chunk.js.map": "/KoreanFoodReactApp/static/js/2.31acb1cc.chunk.js.map",
     "index.html": "/KoreanFoodReactApp/index.html",
-    "static/css/main.86b70ea7.chunk.css.map": "/KoreanFoodReactApp/static/css/main.86b70ea7.chunk.css.map",
-    "static/js/2.bcc5b47d.chunk.js.LICENSE.txt": "/KoreanFoodReactApp/static/js/2.bcc5b47d.chunk.js.LICENSE.txt",
+    "static/css/main.c8c95fc8.chunk.css.map": "/KoreanFoodReactApp/static/css/main.c8c95fc8.chunk.css.map",
+    "static/js/2.31acb1cc.chunk.js.LICENSE.txt": "/KoreanFoodReactApp/static/js/2.31acb1cc.chunk.js.LICENSE.txt",
     "static/media/App.css": "/KoreanFoodReactApp/static/media/bg.eaa2b358.png",
     "static/media/bibimbob.4ea153db.jpeg": "/KoreanFoodReactApp/static/media/bibimbob.4ea153db.jpeg",
     "static/media/bulgogi.81dc31ad.jpeg": "/KoreanFoodReactApp/static/media/bulgogi.81dc31ad.jpeg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.be7eb605.js",
-    "static/js/2.bcc5b47d.chunk.js",
-    "static/css/main.86b70ea7.chunk.css",
-    "static/js/main.357141a3.chunk.js"
+    "static/js/2.31acb1cc.chunk.js",
+    "static/css/main.c8c95fc8.chunk.css",
+    "static/js/main.fda43ada.chunk.js"
   ]
 }
