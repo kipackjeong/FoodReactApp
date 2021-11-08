@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/FoodReactApp/static/css/main.113695f0.chunk.css",
-    "main.js": "/FoodReactApp/static/js/main.fda43ada.chunk.js",
-    "main.js.map": "/FoodReactApp/static/js/main.fda43ada.chunk.js.map",
+    "main.js": "/FoodReactApp/static/js/main.ce48e230.chunk.js",
+    "main.js.map": "/FoodReactApp/static/js/main.ce48e230.chunk.js.map",
     "runtime-main.js": "/FoodReactApp/static/js/runtime-main.d8514375.js",
     "runtime-main.js.map": "/FoodReactApp/static/js/runtime-main.d8514375.js.map",
-    "static/js/2.31acb1cc.chunk.js": "/FoodReactApp/static/js/2.31acb1cc.chunk.js",
-    "static/js/2.31acb1cc.chunk.js.map": "/FoodReactApp/static/js/2.31acb1cc.chunk.js.map",
+    "static/js/2.04909202.chunk.js": "/FoodReactApp/static/js/2.04909202.chunk.js",
+    "static/js/2.04909202.chunk.js.map": "/FoodReactApp/static/js/2.04909202.chunk.js.map",
     "index.html": "/FoodReactApp/index.html",
     "static/css/main.113695f0.chunk.css.map": "/FoodReactApp/static/css/main.113695f0.chunk.css.map",
-    "static/js/2.31acb1cc.chunk.js.LICENSE.txt": "/FoodReactApp/static/js/2.31acb1cc.chunk.js.LICENSE.txt",
+    "static/js/2.04909202.chunk.js.LICENSE.txt": "/FoodReactApp/static/js/2.04909202.chunk.js.LICENSE.txt",
     "static/media/App.css": "/FoodReactApp/static/media/bg.eaa2b358.png",
     "static/media/bibimbob.4ea153db.jpeg": "/FoodReactApp/static/media/bibimbob.4ea153db.jpeg",
     "static/media/bulgogi.81dc31ad.jpeg": "/FoodReactApp/static/media/bulgogi.81dc31ad.jpeg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d8514375.js",
-    "static/js/2.31acb1cc.chunk.js",
+    "static/js/2.04909202.chunk.js",
     "static/css/main.113695f0.chunk.css",
-    "static/js/main.fda43ada.chunk.js"
+    "static/js/main.ce48e230.chunk.js"
   ]
 }
