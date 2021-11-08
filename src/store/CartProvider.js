@@ -52,7 +52,7 @@ const addItemToCart = (
     }
   } else {
     // item added for the first time
-    newState.items[itemName] = item
+    newState.items[itemName] = { ...item }
   }
   newState.totalPrice += itemPrice * addingAmount
   newState.totalAmount += addingAmount
