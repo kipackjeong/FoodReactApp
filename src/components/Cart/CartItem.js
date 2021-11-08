@@ -38,7 +38,9 @@ const CartItem = (props) => {
         <span>{`$${itemTotalPrice}`}</span>
       </td>
       <td>
-        <button onClick={onUpdateBtnClickHandler}>update </button>
+        <button className={styles.button} onClick={onUpdateBtnClickHandler}>
+          update
+        </button>
       </td>
       <td>
         <button className={styles.removeBtn} onClick={onRemoveBtnClickHandler}>

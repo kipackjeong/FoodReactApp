@@ -6,8 +6,8 @@ const Table = (props) => {
       <thead>
         <tr>
           <th> </th>
-          {props.heads.map((head) => (
-            <th>{head}</th>
+          {props.heads.map((head, i) => (
+            <th key={i}>{head}</th>
           ))}
         </tr>
       </thead>

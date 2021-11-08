@@ -16,7 +16,7 @@ span {
   width: 100%;
   background-color: black;
 }
-button {
+.button {
   background-color: white;
   margin: 0.4rem;
   color: black;
